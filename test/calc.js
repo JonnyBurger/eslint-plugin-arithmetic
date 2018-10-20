@@ -82,14 +82,14 @@ ruleTester.run('arithmetic/calc', rule, {
 			output: 'const a = 2;'
 		},
 		{
-			code: 'const z = 1.3 | 0',
+			code: 'const z = 1.3 | 0;',
 			errors: [
 				{
 					ruleId: 'arithmetic/calc',
 					message: '1.3 | 0 can be calculated'
 				}
 			],
-			output: 'const z = 1'
+			output: 'const z = 1;'
 		}
 	]
 });
