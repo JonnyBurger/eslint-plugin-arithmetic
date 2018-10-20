@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-arithmetic",
+  "version": "1.0.0",
+  "description": "ESLint plugin that does calculations using --fix",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyBurger/eslint-plugin-arithmetic.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "arithmetic",
+    "math"
+  ],
+  "author": "Jonny Burger <jonny.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyBurger/eslint-plugin-arithmetic/issues"
+  },
+  "homepage": "https://github.com/JonnyBurger/eslint-plugin-arithmetic#readme",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "eslint-ava-rule-tester": "^2.0.2"
+  },
+  "devDependencies": {
+    "@jonny/eslint-config": "^1.0.16",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0"
+  }
+}
