@@ -1,5 +1,7 @@
 # eslint-plugin-arithmetic
 
+<img src="demo.gif" alt="Demonstration of eslint-plugin-arithmetic">
+
 ESLint rule which calculates out some simple arithmetics.  
 Useful for when you know what you want to write, but you cannot be bothered to calculate it.
 
