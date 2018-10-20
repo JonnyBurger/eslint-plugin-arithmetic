@@ -33,3 +33,10 @@ Sometimes it is useful to have things like `3600 * 1000` in your code to make it
 You can also put `// eslint-disable-line arithmetic/calc` at the end of a line to not calculate an expression.
 
 If you find this cumbersome, this package might not be for you.
+
+
+## Created by
+- [Jonny Burger](jonny.io)
+
+## License
+ISC
