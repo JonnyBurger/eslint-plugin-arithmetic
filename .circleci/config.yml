@@ -13,7 +13,8 @@ jobs:
       - restore_cache:
           keys:
           - v1-dependencies-
-      - run: npm ci
+      - run: yarn
+      - run: yarn test
       - save_cache:
           paths:
             - node_modules
