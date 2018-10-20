@@ -39,4 +39,4 @@ If you find this cumbersome, this package might not be for you.
 - [Jonny Burger](jonny.io)
 
 ## License
-ISC
+MIT

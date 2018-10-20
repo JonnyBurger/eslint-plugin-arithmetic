@@ -18,7 +18,7 @@
     "math"
   ],
   "author": "Jonny Burger <jonny.io>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonnyBurger/eslint-plugin-arithmetic/issues"
   },
