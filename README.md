@@ -5,7 +5,7 @@
 ESLint rule which calculates out some simple arithmetics.  
 Useful for when you know what you want to write, but you cannot be bothered to calculate it.
 
-- Supports <kbd>+</kbd>, <kbd>-</kbd>, <kbd>*</kbd>, <kbd>/</kbd>, <kbd>%</kbd>
+- Supports <kbd>+</kbd>, <kbd>-</kbd>, <kbd>*</kbd>, <kbd>/</kbd>, <kbd>%</kbd>, <kbd>|</kbd>
 - Supports `Math.floor()`, `Math.ceil()`, `Math.round()`
 - Recommended for use in an editor which autofixes your code when you save the file
 

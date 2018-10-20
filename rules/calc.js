@@ -1,7 +1,7 @@
 const create = context => {
 	function arithmeticFix(node) {
 		const {left, right, operator} = node;
-		const supportedOperators = ['+', '-', '*', '/', '%'];
+		const supportedOperators = ['+', '-', '*', '/', '%', '|'];
 		if (
 			typeof left.value === 'number' &&
 			typeof right.value === 'number' &&
@@ -28,6 +28,9 @@ const create = context => {
 					}
 					if (operator === '%') {
 						return fixer.replaceText(node, String(left.value % right.value));
+					}
+					if (operator === '|') {
+						return fixer.replaceText(node, String(left.value | right.value));
 					}
 					return;
 				}
