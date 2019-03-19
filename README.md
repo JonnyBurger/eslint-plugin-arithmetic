@@ -21,7 +21,7 @@ npm install -D eslint-plugin-arithmetic
 {
     "plugins": ["arithmetic"],
     "rules": {
-        "calc": "warn"
+        "arithmetic/calc": "warn"
     }
 }
 ```
