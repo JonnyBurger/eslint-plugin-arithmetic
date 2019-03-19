@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-arithmetic",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ESLint plugin that does calculations using --fix",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,7 @@
     "url": "https://github.com/JonnyBurger/eslint-plugin-arithmetic/issues"
   },
   "homepage": "https://github.com/JonnyBurger/eslint-plugin-arithmetic#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@jonny/eslint-config": "^1.0.16",
     "ava": "^0.25.0",
